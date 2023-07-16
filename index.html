@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ico/Logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="cookie.png" type="image/x-icon">
+    <link rel="stylesheet" href="cookies.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Supermercado Bom D+</title>
+</head>
+<body>
+    
+    <div class="cookies-msg" id="cookies-msg">
+        <div class="cookies-txt">
+            <p>Este site usa cookies e tecnologias afins, que são pequenos arquivos ou pedaços de texto baixados para um aparelho quando o visitante acessa um website ou aplicativo. Ao utilizar nosso site você está de acordo com a utilização dos cookies para te proporcionar uma melhor experiência.</p>
+
+            <div class="cookies-btn">
+                <button onclick="aceito()">Aceito</button>
+            </div>
+        </div>
+    </div><!--cookies-msg-->
+
+    <script src="cookies.js"></script>
+
+    <div class="wrapperContainer wrapperContainer-dark wrapperContainer-fixed">
+        <header class="header container">
+            <img src="Imagens/Logo.png" onclick="redirecionarParaHome()" alt="bom d+">
+
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="#cursos">Nossos produtos</a></li>
+                    <li><a href="#escola">Quem somos nós</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                    <li><a href="https://www.instagram.com/supermercadobomdmais/" target="_blank">Instagram</a></li>
+
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="wrapperContainer wrapperContainer-hero">
+        <section class="container heroBanner">
+            <div class="header_content">
+                <h1 class="hero_title">Trazemos para o consumidor: <span class="upper">Economia e Qualidade</span> </h1>
+                <a href="#escola" class="btn">Saiba mais</a>
+            </div>
+            <img src="Imagens/economia,qualidade e vc sempre icon3.png" alt="estacionamento" class="estacionamento">
+        </section>
+    </div>
+
+    <div class="wrapperContainer wrapperContainer-light wrapperContainer-padded" id="cursos">
+        <section class="cursos container">
+            <h2 class="section_title">Principais Produtos</h2>
+            <div class="cursosContainer">
+                <article class="curso_card">
+                    <img src="Imagens/açõugueicon.PNG" alt="açougue" id="imagem">
+                    <div class="cursos_card_content">
+                        <h3 id="div-text">Açougue</h3>
+                        <p>Temos um estoque imenso em nosso açougue como: Carnes, bistecas, picanhas, salsichas,
+                            tudo da melhor qualidade.</p>
+                    </div>
+                </article>
+
+                <article class="curso_card">
+                    <img src="Imagens/hortifruti icon 2.PNG" alt="hortifruti" >
+                    <div class="cursos_card_content">
+                        <h3 id="div-text">Hortifruti</h3>
+                        <p>Temos um estoque imenso em nosso hortifruti como: Vegetais e Frutas.</p>
+                    </div>
+                </article>
+
+                <article class="curso_card">
+                    <img src="Imagens/PADARIA ICON 2.PNG" alt="padaria" >
+                    <div class="cursos_card_content">
+                        <h3 id="div-text">Padaria</h3>
+                        <p>Temos um estoque imenso em nossa padaria como: Pães frescos <strong>TODOS OS DIAS</strong>, Doces e frios.</p>                         
+                    </div>
+                </article>
+            </div>
+            <a href="#escola" class="btn section_btn">Ver quem somos nós</a>
+        </section>
+    </div>
+
+    <div class="wrapperContainer wrapperContainer-dark2 wrapperContainer-padded" id="escola">
+        <section class="container escola">
+            <img src="Imagens/funcionarios3.png" alt="funcionarios">
+            <div class="escola_content">
+                <h2 class="escola_title">Nosso mercado:</h2>
+                <p>Além de trazermos o melhor para os nossos clientes como: Economia e Qualidade, temos também em um lugar só: Açougue, Hortifruti e Padaria.</p>
+                <p>Temos funcionários super carismáticos e que irão te ajudar no que for.</p>
+                <p>Nosso endereço está localizado mais para baixo da página, se precisar de mais informações como: <strong>Endereço e Contato</strong>.</p><br>
+                <strong><p>Horários de Funcionamento:</p>
+                <p>Domingo:	        08:00–14:30</p>
+                <p>Segunda-Feira:	07:00–20:45</p>
+                <p>Terça-Feira	    07:00–20:45</p>
+                <p>Quarta-Feira:	07:00–20:45</p>
+                <p>Quinta-Feira:    07:00–20:45</p>
+                <p>Sexta-Feira:     07:00–20:45</p>
+                <p>Sábado:          07:00–20:45</p></strong>
+            </div>
+        </section>
+    </div>
+
+    <div class="wrapperContainer wrapperContainer-light wrapperContainer-padded" id="contatos">
+        <section class="container">
+            <h2 class="section_title">Endereço e Contato</h2>
+
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!4v1667917948860!6m8!1m7!1sZCPyeDQBqYzEGg5IT2lXAQ!2m2!1d-23.60175630299728!2d-46.49564149351666!3f18.68!4f0!5f0.7820865974627469" width="600" height="450"; allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <address class="contatos_address">Rua Ettore Andreazza, 638 - Jardim Tiete, São Paulo - SP, 03944-000<br>
+                <button class="btn2" onclick="abrirWhatsApp()">Tel.: (11) 98281-4054</button><br>
+                </address>
+        </section>
+    </div>
+
+    <div class="wrapperContainer wrapperContainer-dark">
+        <footer class="footer">Desenvolvido por <a href="https://niccolascentedevelopments.netlify.app/"  width="100%" height="525" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" target="_blank">Niccolas Cente</a> </footer>
+    </div>
+</body>
+</html> 

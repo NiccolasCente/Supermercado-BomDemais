@@ -1,0 +1,631 @@
+:root {
+    --primary-color: #FED001;
+}
+
+html {
+    /* font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; */
+    font: 400 62.5% 'Inter', sans-serif;
+}
+
+p,
+a {
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+nav a {
+    color: inherit;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 4.6rem;
+    display: inline-block;
+    color: inherit;
+    border: 1px solid black;
+}
+
+.btn:hover{
+    background-color: white;
+}
+
+.wrapperContainer {
+    padding-top: 1px;
+}
+
+.wrapperContainer-dark {
+    background-color: #2a2a2a;
+    color: #fafafa;
+}
+
+.wrapperContainer-light {
+    background-image: linear-gradient(transparent, rgb(255, 255, 86));
+}
+
+.wrapperContainer-dark2 {
+    background-color: #121213;
+    color: #fafafa;
+}
+
+.wrapperContainer-fixed {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.wrapperContainer-padded {
+    padding-top: 12rem;
+}
+
+.container {
+    max-width: 127.6rem;
+    margin: auto;
+    
+}
+
+.section_title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    font-weight: bold;
+    
+}
+
+.section_btn {
+    margin: 7rem 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 2rem 0;
+}
+
+.header_nav a {
+    padding: .75em 1.15em;
+    border: solid 1px;
+    text-decoration: none;
+}
+
+.header_nav ul {
+    display: flex;
+    gap: .6rem;
+    list-style-type: none;
+}
+
+.header_nav a:hover {
+    background-color: black;
+}
+
+.wrapperContainer-hero {
+    background-image: linear-gradient(transparent, rgb(255, 255, 86));
+}
+
+.heroBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.hero_title {
+    margin-bottom: 4rem;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.cursos {
+    text-align: center;
+}
+
+.cursosContainer {
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+}
+
+.curso_card {
+    flex: 1;
+    border: 1px solid #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .curso_card img {
+    display: block;
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+  }
+  
+  .cursos_card_content h3 {
+    margin: 0;
+  }
+  
+  .cursos_card_content p {
+    margin: 0;
+    flex-grow: 1;
+    margin: 10px 0 0; 
+    text-decoration: none;
+    background: rgba(235, 200, 2, 0.3);
+    display: inline-block;
+    padding: 10px;
+    color: rgb(27, 26, 26);
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    list-style: none;
+    margin-left: 10px;
+   
+  }
+
+  .cursos_card_content p:hover{
+    background: #fefcff;
+  }
+
+  .cursos_card_content {
+    padding: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+
+.escola {
+    display: flex;
+    gap: 7rem;
+    padding-top: 6rem;
+}
+
+.escola_title {
+    font-size: 3.2rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.escola p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    list-style: none;
+    margin-left: 10px;
+    border: 1px solid white;
+    
+}
+
+.escola p:hover{
+    background: #2c272e;
+
+}
+.contatos_address {
+  font-size: 2.3rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 2rem;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.footer {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0.1rem;
+   
+
+}
+
+.footer a {
+    color: inherit;
+   
+}
+
+.estacionamento{
+    box-sizing: border-box;
+    padding: 4px;
+    width:50em;
+    height: 50em;
+    
+}
+
+.maps{
+    width:105%;
+    border: 1px solid black;
+    
+}
+
+#div-text{
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  list-style: none;
+  margin-left: 10px;
+  border: 1px solid white;
+}
+
+#div-text:hover {
+    background: #2c272e;
+  }
+
+.btn2{
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 4.6rem;
+    display: inline-block;
+    color: inherit;
+    border: 1px solid black;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.btn2:hover{
+    background-color: white;
+}
+
+
+@media screen and (max-width:400px){
+    :root {
+        --primary-color: #FED001;
+      }
+      
+      html {
+        font: 400 62.5% 'Inter', sans-serif;
+      }
+      
+      p, a {
+        font-size: 1.6rem;
+      }
+      
+      h1 {
+        font-size: 4.8rem;
+      }
+      
+      h2 {
+        font-size: 4rem;
+      }
+      
+      h3 {
+        font-size: 3.2rem;
+      }
+      
+      nav a {
+        color: inherit;
+      }
+      
+      .upper {
+        text-transform: uppercase;
+      }
+      
+      .btn {
+        background-color: var(--primary-color);
+        border-radius: 4px;
+        font-size: 1.8rem;
+        text-decoration: none;
+        padding: 1.6rem 4.6rem;
+        display: inline-block;
+        color: inherit;
+        border: 1px solid black;
+      }
+      
+      .btn:hover {
+        background-color: white;
+      }
+      
+      .wrapperContainer {
+        padding-top: 1px;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      
+      .wrapperContainer-dark {
+        background-color: #2a2a2a;
+        color: #fafafa;
+      }
+      
+      .wrapperContainer-light {
+        background-image: linear-gradient(transparent, rgb(255, 255, 86));
+      }
+      
+      .wrapperContainer-dark2 {
+        background-color: #121213;
+        color: #fafafa;
+      }
+      
+      .wrapperContainer-fixed {
+        position: sticky;
+        width: 100%;
+        top: 0;
+        left: 0;
+      }
+      
+      .wrapperContainer-padded {
+        padding-top: 12rem;
+      }
+      
+      .container {
+        padding: 0 1rem;
+      }
+    
+      .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .header_nav {
+        margin-top: 1rem;
+      }
+    
+      .header_nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .header_nav li {
+        margin: 0.5rem 0;
+      }
+    
+      .wrapperContainer-hero .heroBanner {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .estacionamento {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+      }
+    
+      .cursosContainer {
+        flex-direction: column;
+      }
+    
+      .curso_card {
+        flex-basis: 100%;
+      }
+    
+      .escola {
+        flex-direction: column;
+      }
+    
+      .maps {
+        width: 100%;
+        max-width: 300px;
+      }
+    }
+      #div-text {
+        text-decoration: none;
+        background: rgba(0, 0, 0, 0.3);
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+        list-style: none;
+        margin-left: 10px;
+        border: 1px solid white;
+      }
+      
+      #div-text:hover {
+        background: #2c272e;
+      }
+      
+      .btn2 {
+        background-color: var(--primary-color);
+        border-radius: 4px;
+        font-size: 1.8rem;
+        text-decoration: none;
+        padding: 1.6rem 4.6rem;
+        display: inline-block;
+        color: inherit;
+        border: 1px solid black;
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+      
+      .btn2:hover {
+        background-color: white;
+      }
+
+
+@media screen and (max-width:500px){
+    :root {
+        --primary-color: #FED001;
+      }
+      
+      html {
+        font: 400 62.5% 'Inter', sans-serif;
+      }
+      
+      p, a {
+        font-size: 1.6rem;
+      }
+      
+      h1 {
+        font-size: 4.8rem;
+      }
+      
+      h2 {
+        font-size: 4rem;
+      }
+      
+      h3 {
+        font-size: 3.2rem;
+      }
+      
+      nav a {
+        color: inherit;
+      }
+      
+      .upper {
+        text-transform: uppercase;
+      }
+      
+      .btn {
+        background-color: var(--primary-color);
+        border-radius: 4px;
+        font-size: 1.8rem;
+        text-decoration: none;
+        padding: 1.6rem 4.6rem;
+        display: inline-block;
+        color: inherit;
+        border: 1px solid black;
+      }
+      
+      .btn:hover {
+        background-color: white;
+      }
+      
+      .wrapperContainer {
+        padding-top: 1px;
+        max-width: 500px;
+        margin: 0 auto;
+      }
+      
+      .wrapperContainer-dark {
+        background-color: #2a2a2a;
+        color: #fafafa;
+      }
+      
+      .wrapperContainer-light {
+        background-image: linear-gradient(transparent, rgb(255, 255, 86));
+      }
+      
+      .wrapperContainer-dark2 {
+        background-color: #121213;
+        color: #fafafa;
+      }
+      
+      .wrapperContainer-fixed {
+        position: sticky;
+        width: 100%;
+        top: 0;
+        left: 0;
+      }
+      
+      .wrapperContainer-padded {
+        padding-top: 12rem;
+      }
+      
+      .container {
+        padding: 0 1rem;
+      }
+    
+      .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .header_nav {
+        margin-top: 1rem;
+      }
+    
+      .header_nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .header_nav li {
+        margin: 0.5rem 0;
+        margin-bottom: 2em;
+      }
+    
+      .wrapperContainer-hero .heroBanner {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .estacionamento {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+      }
+    
+      .cursosContainer {
+        flex-direction: column;
+      }
+    
+      .curso_card {
+        flex-basis: 100%;
+      }
+    
+      .escola {
+        flex-direction: column;
+      }
+    
+      .maps {
+        width: 100%;
+        max-width: 300px;
+      }
+    }
+      
+      #div-text {
+        text-decoration: none;
+        background: rgba(0, 0, 0, 0.3);
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+        list-style: none;
+        margin-left: 10px;
+        border: 1px solid white;
+      }
+      
+      #div-text:hover {
+        background: #2c272e;
+      }
+      
+      .btn2 {
+        background-color: var(--primary-color);
+        border-radius: 4px;
+        font-size: 1.8rem;
+        text-decoration: none;
+        padding: 1.6rem 4.6
+}
